@@ -1,0 +1,89 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2F281E;
+}
+
+.container{
+  width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+}
+
+.menu__list{
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.menu__item{
+  line-height: 1.7;
+  transition: color .3s ease;
+}
+
+.menu__item:hover{
+  color: #FF9900;
+}
+
+.header__btn{
+  padding: 13px 26px;
+  border: 1px solid #BCD0E5;
+  transition: all .3s ease;
+  border-radius: 4px;
+}
+
+.header__btn:nth-child(2){
+  margin-left: 32px;
+}
+
+.header__btn:hover{
+  background-color: #FF9900;
+  color: #FFFFFF;
+  border: none;
+}
+
+.main{
+  padding: 70px 0 100px;
+}
+
+.hero__box{
+  display: flex;
+  gap: 55px;
+}
+
+.hero__content{
+  padding: 97px 0;
+}
+
+.hero__title{
+  font-size: 44px;
+  line-height: 1,2;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.hero__text{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.hero__btn{
+  padding: 13px 43px;
+  background-color: #FF9900;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.hero__img{
+  object-fit: cover;
+}
