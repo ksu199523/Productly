@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Productly</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=LINE+Seed+JP&family=Montserrat:wght@600&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=LINE+Seed+JP&family=Montserrat:wght@300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-   <header class="header">
-      <div class="container">
-        <div class="header__wrapper">
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
         <img class="logo" src="./assets/img/Logo.svg" alt="Logo">
         <nav class="menu">
           <ul class="menu__list">
@@ -32,66 +36,115 @@
           </ul>
         </nav>
         <div class="header__buttons">
-        <button class="header__btn">Sign In</button>
-        <button class="header__btn">Sign Up</button>
-        </div>
+          <button class="header__btn">Sign In</button>
+          <button class="header__btn">Sign Up</button>
         </div>
       </div>
-    </header>
-    <main class="main">
-      <section class="hero">
-        <div class="container">
-          <div class="hero__box">
-            <div class="hero__content">
-              <h1 class="hero__title">The Design Thinking superpowers</h1>
-              <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-              <a class="hero__btn">Get started</a>
-            </div>
-            <img class="hero__img" src="./assets/img/hero.jpg" alt="Three happy people jumping with books and papers flying around.">
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <div class="hero__box">
+          <div class="hero__content">
+            <h1 class="hero__title">The Design Thinking superpowers</h1>
+            <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive
+              way to imagine your next user experience.</p>
+            <a class="hero__btn">Get started</a>
           </div>
+          <img class="hero__img" src="./assets/img/hero.jpg"
+            alt="Three happy people jumping with books and papers flying around.">
         </div>
-      </section>
-      <section id="product" class="ptoduct">
-        <div class="container">
-          <div class="product__content">
-            <h2 class="product__title title">We design tools to unveil your superpowers</h2>
-            <div class="product__items">
-              <div class="product__item">
-                <img class="product__img" src="./assets/img/product/arrow.svg" alt="">
-                <span class="product__subtitle">First click tests</span>
-                <p class="product__text">While most people enjoy casino gambling,</p>
-              </div>
-              <div class="product__item">
-                <img class="product__img" src="./assets/img/product/orange.svg" alt="">
-                <span class="product__subtitle">Design surveys</span>
-                <p class="product__text">Sports betting, lottery and bingo playing for the fun</p>
-              </div>
-              <div class="product__item">
-                <img class="product__img" src="./assets/img/product/heart.svg" alt="">
-                <span class="product__subtitle">Preference tests</span>
-                <p class="product__text">The Myspace page defines the individual.</p>
-              </div>
-              <div class="product__item">
-                <img class="product__img" src="./assets/img/product/clock.svg" alt="">
-                <span class="product__subtitle">Five second tests</span>
-                <p class="product__text">Personal choices and the overall personality of the person. </p>
-              </div>
+      </div>
+    </section>
+    <section id="product" class="product">
+      <div class="container">
+        <div class="product__content">
+          <h2 class="product__title title">We design tools to unveil your superpowers</h2>
+          <div class="product__items">
+            <div class="product__item">
+              <img class="product__img" src="./assets/img/product/arrow.svg" alt="">
+              <span class="product__subtitle">First click tests</span>
+              <p class="product__text">While most people enjoy casino gambling,</p>
             </div>
-            <div class="product__inner">
+            <div class="product__item">
+              <img class="product__img" src="./assets/img/product/orange.svg" alt="">
+              <span class="product__subtitle">Design surveys</span>
+              <p class="product__text">Sports betting, lottery and bingo playing for the fun</p>
+            </div>
+            <div class="product__item">
+              <img class="product__img" src="./assets/img/product/heart.svg" alt="">
+              <span class="product__subtitle">Preference tests</span>
+              <p class="product__text">The Myspace page defines the individual.</p>
+            </div>
+            <div class="product__item">
+              <img class="product__img" src="./assets/img/product/clock.svg" alt="">
+              <span class="product__subtitle">Five second tests</span>
+              <p class="product__text">Personal choices and the overall personality of the person. </p>
+            </div>
+          </div>
+          <div class="product__inner">
             <a class="product__btn" href="#">Sign up Now</a>
-            </div>
-             <svg  class="product__wave" viewBox="0 0 1440 389" fill="none">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M692.343 388.264C207.835 388.856 -277.924 115.946 -420.323 29.0283C-432.976 21.3051 -427.421 2.73719 -412.598 2.71907L1811.81 4.31264e-05C1826.67 -0.0181273 1832.24 18.6096 1819.53 26.318C1675.59 113.616 1184.59 387.662 692.343 388.264Z" fill="url(#paint0_linear_0_535)"/>
-              <defs>
-              <linearGradient id="paint0_linear_0_535" x1="1819.9" y1="386.957" x2="1819.44" y2="-1.29886" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#FFE5D2" stop-opacity="0.629261"/>
-              <stop offset="1" stop-color="#FFF4E5" stop-opacity="0.01"/>
+          </div>
+          <svg class="product__wave" viewBox="0 0 1440 389" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M692.343 388.264C207.835 388.856 -277.924 115.946 -420.323 29.0283C-432.976 21.3051 -427.421 2.73719 -412.598 2.71907L1811.81 4.31264e-05C1826.67 -0.0181273 1832.24 18.6096 1819.53 26.318C1675.59 113.616 1184.59 387.662 692.343 388.264Z"
+              fill="url(#paint0_linear_0_535)" />
+            <defs>
+              <linearGradient id="paint0_linear_0_535" x1="1819.9" y1="386.957" x2="1819.44" y2="-1.29886"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FFE5D2" stop-opacity="0.629261" />
+                <stop offset="1" stop-color="#FFF4E5" stop-opacity="0.01" />
               </linearGradient>
-              </defs>
-              </svg>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <section class="professions">
+      <div class="container">
+        <div class="professions__box">
+          <div class="professions__content">
+            <span class="professions__supertitle">Effortless Validation for</span>
+            <h2 class="professions__title title">Design Professionals</h2>
+            <p class="professions__text-first">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+            <h3 class="professions__subtitle subtitle">Accessory makers</h3>
+            <p class="professions__text">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+            <h3 class="professions__subtitle subtitle">Alterationists</h3>
+            <p class="professions__text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+            <h3 class="professions__subtitle subtitle">Custom Design designers</h3>
+            <p class="professions__text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+          </div>
+          <img class="professions__img" src="./assets/img/professions/desing.jpg" alt="Man holding a smartphone with colorful chat bubbles around hi">
+        </div>
+        <div class="professions__box">
+          <img class="professions__img" src="./assets/img/professions/managers.jpg" alt="Man working on a laptop with digital documents and icons around him" >
+          <div class="professions__content">
+            <span class="professions__supertitle">Easier decision making for</span>
+            <h2 class="professions__title title">Product Managers</h2>
+            <p class="professions__text-first">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+            <p class="professions__text icon-text">Never worry about overpaying for your energy bill again. </p>
+            <p class="professions__text icon-text">We will only switch you to energy companies that we trust and will treat you right.</p>
+            <p class="professions__text icon-text">We track the markets daily and know where the savings are.</p>
           </div>
         </div>
-      </section>
-    </main>
+        <div class="professions__box">
+          <div class="professions__content">
+            <span class="professions__supertitle">Optimisation for</span>
+            <h2 class="professions__title title">Marketers</h2>
+            <p class="professions__text-first">Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. </p>
+            <h3 class="professions__subtitle subtitle">Accessory makers</h3>
+            <p class="professions__text">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+            <h3 class="professions__subtitle subtitle">Alterationists</h3>
+            <p class="professions__text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+            <h3 class="professions__subtitle subtitle">Custom Design designers</h3>
+            <p class="professions__text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+          </div>
+          <img class="professions__img" src="./assets/img/professions/desing.jpg" alt="Man interacting with a digital dashboard, selecting colored cards">
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>

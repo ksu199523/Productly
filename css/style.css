@@ -3,11 +3,11 @@ body{
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #2F281E;
+  color: #544837;
 }
 
 .container{
-  max-width: 1460px;
+  max-width: 1220px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -16,6 +16,13 @@ body{
   font-size: 36px;
   font-weight: 800;
   line-height: 1.2;
+  color: #2F281E;
+}
+
+.subtitle{
+  font-weight: 800;
+  line-height: 1.6;
+  color: #2F281E;
 }
 
 .header__wrapper{
@@ -97,7 +104,7 @@ body{
   object-fit: cover;
 }
 
-.ptoduct{
+.product{
   margin-bottom: 100px;
   position: relative;
   z-index: 2;
@@ -132,6 +139,7 @@ body{
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 16px;
+  color: #2F281E;
 }
 
 .product__text{
@@ -157,6 +165,70 @@ body{
   display: block;
   position: absolute;
   bottom: -20%;
+  left: 0;
   z-index: -1;
 }
 
+.professions{
+  padding: 100px 0 0;
+}
+
+.professions__box{
+  display: flex;
+  gap: 120px;
+  margin-bottom: 100px;
+  font-weight: 500;
+}
+
+.professions__content{
+  padding: 20px 0;
+  text-align: left;
+}
+
+.professions__title{
+  margin-bottom: 20px;
+}
+
+.professions__text-first{
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.professions__subtitle{
+  margin-bottom: 10px;
+}
+
+.professions__text{
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.professions__text:last-child{
+  margin-bottom: 0;
+}
+
+.professions__img{
+  object-fit: contains;
+}
+
+.icon-text{
+  margin-left: 65px;
+  position: relative;
+}
+
+.icon-text::after{
+  position: absolute;
+  content: '';
+  left: -65px;
+  bottom: 50%;
+  transform: translateY(50%);
+  width: 35px;
+  height: 35px;
+  background-color: #FF9900;
+  border-radius: 10px;
+  background-image: url(../assets/img/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 17px;
+
+}
