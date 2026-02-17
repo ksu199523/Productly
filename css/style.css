@@ -25,12 +25,14 @@ body{
   color: #2F281E;
 }
 
+.header{
+  padding: 17px 0;
+}
+
 .header__wrapper{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 17px 0;
-  margin-bottom: 70px;
 }
 
 .menu__list{
@@ -66,7 +68,7 @@ body{
 }
 
 .main{
-  margin-bottom: 100px;
+ padding: 70px 0 100px;
 }
 
 .hero__box{
@@ -176,7 +178,6 @@ body{
 .professions__box{
   display: flex;
   gap: 120px;
-  margin-bottom: 100px;
   font-weight: 500;
 }
 
@@ -234,6 +235,7 @@ body{
 
 .footer{
   padding: 70px 0;
+  border-top: 1px solid #BCD0E5;
 }
 .footer__content{
   display: flex;
